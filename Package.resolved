@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PhotoModel",
+        "repositoryURL": "https://github.com/shivamdhingra33/PhotoModel.git",
+        "state": {
+          "branch": null,
+          "revision": "e936d69b9e9e4db1fd22581a0386eadea852369e",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

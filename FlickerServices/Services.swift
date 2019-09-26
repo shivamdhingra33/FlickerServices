@@ -11,8 +11,8 @@ import Alamofire
 import PhotoModel
 
 public class FlickerService {
-    func fetchPhotos(fromUrlComponents urlComponent: URLComponents, successCallback: @escaping ((PhotoResponseModel?) -> Void), errorCallback: @escaping ((Error) -> Void) ) {
-        AF.request(URLRequest(url: urlComponent.url!)).response { (response) in
+    public static func fetchPhotos(fromUrlComponents urlComponent: URLComponents, successCallback: @escaping ((PhotoResponseModel?) -> Void), errorCallback: @escaping ((Error) -> Void) ) {
+        Alamofire.request(URLRequest(url: urlComponent.url!)).response { (response) in
             guard let data = response.data else {return}
             let photoResponse = try? JSONDecoder().decode(PhotoResponseModel.self, from: data)
             successCallback(photoResponse)

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8118C83A233D4E5400B35278 /* PhotoModel in Frameworks */ = {isa = PBXBuildFile; productRef = 8118C839233D4E5400B35278 /* PhotoModel */; };
+		7ED7E0CB2CA6E77295EE7508 /* Pods_FlickerServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9868B04EEB124A9CE2DBB1A1 /* Pods_FlickerServices.framework */; };
+		8118C83A233D4E5400B35278 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 8118C839233D4E5400B35278 /* SwiftPackageProductDependency */; };
 		8118C83F233D4FC700B35278 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8118C83E233D4FC700B35278 /* Package.swift */; };
 		81D57C1B233D483A00DBB46A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D57C1A233D483A00DBB46A /* AppDelegate.swift */; };
 		81D57C1D233D483A00DBB46A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D57C1C233D483A00DBB46A /* SceneDelegate.swift */; };
@@ -42,7 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8118C83A233D4E5400B35278 /* PhotoModel in Frameworks */,
+				8118C83A233D4E5400B35278 /* BuildFile in Frameworks */,
+				7ED7E0CB2CA6E77295EE7508 /* Pods_FlickerServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +131,7 @@
 			);
 			name = FlickerServices;
 			packageProductDependencies = (
-				8118C839233D4E5400B35278 /* PhotoModel */,
+				8118C839233D4E5400B35278 /* SwiftPackageProductDependency */,
 			);
 			productName = FlickerServices;
 			productReference = 81D57C17233D483A00DBB46A /* FlickerServices.app */;
@@ -160,7 +162,7 @@
 			);
 			mainGroup = 81D57C0E233D483A00DBB46A;
 			packageReferences = (
-				8118C838233D4E5400B35278 /* XCRemoteSwiftPackageReference "PhotoModel" */,
+				8118C838233D4E5400B35278 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 81D57C18233D483A00DBB46A /* Products */;
 			projectDirPath = "";
@@ -432,7 +434,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8118C838233D4E5400B35278 /* XCRemoteSwiftPackageReference "PhotoModel" */ = {
+		8118C838233D4E5400B35278 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/shivamdhingra33/PhotoModel.git";
 			requirement = {
@@ -443,9 +445,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8118C839233D4E5400B35278 /* PhotoModel */ = {
+		8118C839233D4E5400B35278 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8118C838233D4E5400B35278 /* XCRemoteSwiftPackageReference "PhotoModel" */;
+			package = 8118C838233D4E5400B35278 /* RemoteSwiftPackageReference */;
 			productName = PhotoModel;
 		};
 /* End XCSwiftPackageProductDependency section */

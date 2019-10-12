@@ -6,5 +6,5 @@ target 'FlickerServices' do
   use_frameworks!
 
   # Pods for FlickerServices
-pod 'Alamofire', '~> 5.0.0-rc.2'
+pod 'Alamofire'
 end
